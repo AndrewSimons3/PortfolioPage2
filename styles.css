@@ -45,7 +45,7 @@ h2 {
 .nav-link:hover {
   transition: .5s ease-in-out;
   text-decoration:none;
-  border-color: white
+  border-color: white;
 }
 
 section {
