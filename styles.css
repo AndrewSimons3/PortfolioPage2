@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-family: "Roboto";
     background-color: #537895;
     background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
     color: white;
