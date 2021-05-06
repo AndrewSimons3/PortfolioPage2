@@ -48,13 +48,24 @@ h2 {
   border-color: white;
 }
 
-section {
+/* section {
   margin: 3%;
-}
+} */
 
 #about {
   display: flex;
   flex-direction: column;
+  margin: 3%;
+}
+
+#work {
+  margin: auto;
+}
+
+.project-box-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
 .project-box {
@@ -74,5 +85,13 @@ section {
   .nav{
     display: flex;
     flex-direction: row;
+  }
+}
+
+@media (max-width: 410px) {
+  .project-box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
