@@ -78,6 +78,30 @@ h1, h2{
   margin: 5%;
 }
 
+.about-article {
+  padding-bottom: 20px;
+}
+
+.btn-resume {
+  color: white;
+  text-decoration: none;
+  border: 1px solid whitesmoke;
+  border-radius: .50rem;
+  text-align: center;
+  width: 100px;
+}
+
+.btn-resume:hover {
+  border: 1px solid whitesmoke;
+  color: whitesmoke;
+  transition: .50s ease-in-out;
+  cursor: pointer;
+  opacity: 95%;
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
 #work {
   margin: 3%;
 }
