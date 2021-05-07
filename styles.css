@@ -50,8 +50,8 @@ h2 {
 
 .avatar {
   vertical-align: middle;
-  width: 150px;
-  height: 150px;
+  width: 225px;
+  height: 250px;
   border-radius: 50%;
 }
 
@@ -67,6 +67,7 @@ h2 {
 
 #work {
   margin: auto;
+  margin-top: 50px;
 }
 
 .project-box-container {
@@ -87,6 +88,46 @@ h2 {
   width: 75px;
 }
 
+#icons {
+  display: flex;
+  position: fixed;
+  right: 0;
+  bottom: 8px;
+  z-index: 2;
+  padding: 0;
+  margin-right: 5px;
+}
+
+#icons i:hover {
+  color: whitesmoke;
+  transition: .25s ease-in-out;
+  cursor: pointer;
+  opacity: 95%;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.line {
+  position: fixed;
+  bottom: 0px;
+  padding: 15px;
+  width: 100%;
+  border-top: 1px solid whitesmoke;
+  background-image: linear-gradient(
+  315deg, #537895 0%, #09203f 74%);
+}
+
+a {
+  text-decoration: none;
+}
+
+#icons i {
+  color: white;
+  padding: 0 20px;
+  font-size: 30px;
+}
+
 @media (min-width: 768px) {
   .nav{
     display: flex;
@@ -99,5 +140,17 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  #icons i {
+    color: white;
+    padding: 0 5px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 315px) {
+  #icons i {
+    display: none;
   }
 }
