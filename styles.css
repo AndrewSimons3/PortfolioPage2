@@ -119,6 +119,7 @@ h1, h2{
 
 .project-button-box {
   text-align: center;
+  padding: 20px;
 }
 
 .project-box {
@@ -174,19 +175,27 @@ a {
   font-size: 30px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 450px) {
   .nav{
     display: flex;
     flex-direction: row;
   }
 }
 
-@media (max-width: 410px) {
+
+/* @media (max-width: 410px) {
   .project-box-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+  } */
+
+  @media (max-width: 920px) {
+    .project-box-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
   #icons i {
     color: white;
