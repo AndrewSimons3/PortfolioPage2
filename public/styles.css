@@ -3,10 +3,10 @@
 }
 
 body {
-    font-family: "Roboto";
-    background-color: #537895;
-    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
-    color: white;
+  font-family: "Roboto";
+  background-color: #537895;
+  background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+  color: white;
 }
 
 .wrapper {
@@ -64,8 +64,8 @@ h1, h2{
 
 .avatar {
   /* make a square container */
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 280px;
   /* fill the container, preserving aspect ratio, and cropping to fit */
   background-size: cover;
   /* center the image vertically and horizontally */
